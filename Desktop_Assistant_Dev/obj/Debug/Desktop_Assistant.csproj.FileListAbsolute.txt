@@ -35,3 +35,16 @@ D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop
 D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.pdb
 D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.IPCheck.resources
 D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Serial.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Debug\Desktop_Assistant.exe.config
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Debug\Desktop_Assistant.exe
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Debug\Desktop_Assistant.pdb
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.csprojAssemblyReference.cache
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Command.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.IPCheck.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Main.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Properties.Resources.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Serial.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Timer.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.csproj.GenerateResource.cache
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.exe
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.pdb

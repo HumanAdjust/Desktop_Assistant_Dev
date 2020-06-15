@@ -29,9 +29,14 @@ namespace Desktop_Assistant
             MessageBox.Show("Welcome Back!", "Desktop_Assistant", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        public void ChangeBGImage(Image bgImage)
+        {
+            this.BackgroundImage = bgImage;
+        }
+
         private void Main_DoubleClick(object sender, EventArgs e)
         {
-            Command command = new Command(); 
+            Command command = new Command(this); 
             command.Show();
         }
     }

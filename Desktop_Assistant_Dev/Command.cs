@@ -13,9 +13,12 @@ namespace Desktop_Assistant
 {
     public partial class Command : Form
     {
-        public Command()
+        private Main _form1 = null;
+
+        public Command(Main main)
         {
             InitializeComponent();
+            _form1 = main;
         }
 
         private void Shutdown_Click(object sender, EventArgs e)
@@ -56,18 +59,14 @@ namespace Desktop_Assistant
 
         private void Cha_Clippy_Click(object sender, EventArgs e)
         {
-            Main main = new Main();
             Image Clippy = Image.FromFile(@"..\..\Idle\Clippy.png");
-            main.BackgroundImage = Clippy;
-            main.BackgroundImageLayout = ImageLayout.Stretch; //불러온 이미지를 어떻게 세팅할 것지에 관한 것..
+            _form1.ChangeBGImage(Clippy);
         }
 
         private void Cha_Nyan_Click(object sender, EventArgs e)
         {
-            Main main = new Main();
             Image Nyan = Image.FromFile(@"..\..\Idle\Nyan.png");
-            main.BackgroundImage = Nyan;
-            main.BackgroundImageLayout = ImageLayout.Stretch; //불러온 이미지를 어떻게 세팅할 것지에 관한 것..
+            _form1.ChangeBGImage(Nyan);
         }
 
         private void Com_Check_Click(object sender, EventArgs e)

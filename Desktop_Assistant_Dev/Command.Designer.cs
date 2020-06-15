@@ -48,8 +48,8 @@
             this.Battery_check = new System.Windows.Forms.Button();
             this.Com_Check = new System.Windows.Forms.Button();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.IPCheck = new System.Windows.Forms.Button();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.SystemIO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Con_Features.SuspendLayout();
@@ -166,7 +166,7 @@
             // 
             // Check_Port
             // 
-            this.Check_Port.Location = new System.Drawing.Point(7, 78);
+            this.Check_Port.Location = new System.Drawing.Point(8, 49);
             this.Check_Port.Name = "Check_Port";
             this.Check_Port.Size = new System.Drawing.Size(141, 23);
             this.Check_Port.TabIndex = 2;
@@ -249,23 +249,13 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.Check_Port);
-            this.groupBox5.Controls.Add(this.button1);
             this.groupBox5.Controls.Add(this.IPCheck);
             this.groupBox5.Location = new System.Drawing.Point(269, 13);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(155, 116);
+            this.groupBox5.Size = new System.Drawing.Size(155, 83);
             this.groupBox5.TabIndex = 7;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Network Panel";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(7, 49);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Battary DIagnosis";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // IPCheck
             // 
@@ -277,10 +267,20 @@
             this.IPCheck.UseVisualStyleBackColor = true;
             this.IPCheck.Click += new System.EventHandler(this.IPCheck_Click);
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Location = new System.Drawing.Point(430, 13);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(300, 373);
+            this.groupBox6.TabIndex = 7;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Shortcuts";
+            // 
             // Command
             // 
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(742, 560);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
@@ -321,7 +321,7 @@
         private System.Windows.Forms.Button Com_Check;
         private System.Windows.Forms.Button Battery_check;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button IPCheck;
+        private System.Windows.Forms.GroupBox groupBox6;
     }
 }
