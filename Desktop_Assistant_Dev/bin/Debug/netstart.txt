@@ -1,0 +1,160 @@
+These Windows services are started:
+
+   AhnLab V3 Lite Service
+   Application Information
+   AVCTP 서비스
+   Background Intelligent Transfer Service
+   Background Tasks Infrastructure Service
+   Base Filtering Engine
+   Bluetooth 오디오 게이트웨이 서비스
+   Bluetooth 지원 서비스
+   Bonjour Service
+   Certificate Propagation
+   Client License Service (ClipSVC)
+   CNG Key Isolation
+   COM+ Event System
+   Connected User Experiences and Telemetry
+   Consulting Mode
+   Contact Data_2cdf03
+   CoreMessaging
+   Credential Manager
+   CrossEX Live Checker
+   Cryptographic Services
+   Data Sharing Service
+   DCOM Server Process Launcher
+   Delivery Optimization
+   Device Association Service
+   DHCP Client
+   Diagnostic Policy Service
+   Diagnostic Service Host
+   Diagnostic System Host
+   Distributed Link Tracking Client
+   DNS Client
+   Energy Server Service queencreek
+   ESIF Upper Framework Service
+   ESTsoft ALTools Update Service
+   Extensible Authentication Protocol
+   FlexNet Licensing Service
+   Function Discovery Provider Host
+   Function Discovery Resource Publication
+   Geolocation Service
+   Human Interface Device Service
+   IKE and AuthIP IPsec Keying Modules
+   Intel Bluetooth Service
+   Intel(R) Content Protection HDCP Service
+   Intel(R) Content Protection HECI Service
+   Intel(R) Driver & Support Assistant
+   Intel(R) Driver & Support Assistant Updater
+   Intel(R) Dynamic Application Loader Host Interface Service
+   Intel(R) Graphics Command Center Service
+   Intel(R) HD Graphics Control Panel Service
+   Intel(R) PROSet/Wireless Event Log
+   Intel(R) PROSet/Wireless Registry Service
+   Intel(R) PROSet/Wireless Zero Configuration Service
+   Intel(R) System Usage Report Service SystemUsageReportSvc_QUEENCREEK
+   IP Helper
+   IPsec Policy Agent
+   KMS Server Service
+   LMIGuardianSvc
+   Local Session Manager
+   LogMeIn Hamachi Tunneling Engine
+   Microsoft Passport
+   Microsoft Passport Container
+   Microsoft Store 설치 서비스
+   MongoDB Server
+   MySQL80
+   Network Connection Broker
+   Network List Service
+   Network Location Awareness
+   Network Store Interface Service
+   nProtect Online Security(PFS)
+   OracleServiceXE
+   OracleXETNSListener
+   Plug and Play
+   Power
+   Print Spooler
+   Program Compatibility Assistant Service
+   Quality Windows Audio Video Experience
+   Realtek Audio Universal Service
+   Remote Access Connection Manager
+   Remote Desktop Configuration
+   Remote Desktop Services
+   Remote Procedure Call (RPC)
+   RPC Endpoint Mapper
+   Samsung EcoMode
+   SAMSUNG Mobile Connectivity Service
+   Samsung Recovery Service
+   Samsung Settings Expansion Launcher
+   Samsung Update Service
+   SamsungSecurity Launcher
+   Secondary Logon
+   Secure Socket Tunneling Protocol Service
+   Security Accounts Manager
+   Security Center
+   Server
+   Shell Hardware Detection
+   SoftEther VPN Client
+   SpyHunter 5 Kernel Monitor
+   SQL Server VSS 기록기
+   SSDP Discovery
+   sService Agent Launcher
+   State Repository Service
+   Steam Client Service
+   Storage Service
+   SysMain
+   System Event Notification Service
+   System Events Broker
+   System Guard 런타임 모니터 브로커
+   Task Scheduler
+   TCP/IP NetBIOS Helper
+   Telephony
+   Themes
+   Time Broker
+   Touch Keyboard and Handwriting Panel Service
+   TunnelBear Maintenance
+   User Data Access_2cdf03
+   User Data Storage_2cdf03
+   User Manager
+   User Profile Service
+   VMware Authorization Service
+   VMware DHCP Service
+   VMware NAT Service
+   VMware USB Arbitration Service
+   VMware Workstation Server
+   Windows Audio
+   Windows Audio Endpoint Builder
+   Windows Biometric Service
+   Windows Connection Manager
+   Windows Defender Firewall
+   Windows Event Log
+   Windows Font Cache Service
+   Windows Image Acquisition (WIA)
+   Windows Management Instrumentation
+   Windows Modules Installer
+   Windows Presentation Foundation Font Cache 3.0.0.0
+   Windows Push Notifications User Service_2cdf03
+   Windows Search
+   Windows Update
+   Windows 라이선스 관리자 서비스
+   Windows 보안 서비스
+   Windows 푸시 알림 시스템 서비스
+   WinHTTP Web Proxy Auto-Discovery Service
+   Wired AutoConfig
+   WLAN AutoConfig
+   Workstation
+   결제 및 NFC/SE 관리자
+   기능 액세스 관리자 서비스
+   기본 인증
+   데이터 사용량
+   디스플레이 개선 서비스
+   무선 송수신 장치 관리 서비스
+   연결된 디바이스 플랫폼 사용자 서비스_2cdf03
+   연결된 디바이스 플랫폼 서비스
+   오케스트레이터 서비스 업데이트
+   웹 계정 관리자
+   정책 서비스 표시
+   클립보드 사용자 서비스_2cdf03
+   호스트 동기화_2cdf03
+
+The command completed successfully.
+

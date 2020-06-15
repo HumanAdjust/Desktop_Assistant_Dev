@@ -1,0 +1,37 @@
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.exe.config
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.exe
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.pdb
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csprojAssemblyReference.cache
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Properties.Resources.resources
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csproj.GenerateResource.cache
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csproj.CoreCompileInputs.cache
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.exe
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.pdb
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Main.resources
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Command.resources
+E:\Project_Helper\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Timer.resources
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csprojAssemblyReference.cache
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Command.resources
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Main.resources
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Properties.Resources.resources
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Timer.resources
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csproj.GenerateResource.cache
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.exe
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.pdb
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.exe.config
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.exe
+C:\Users\user\Desktop\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.pdb
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.exe.config
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.exe
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\bin\Debug\Desktop_Assistant.pdb
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csprojAssemblyReference.cache
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Command.resources
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Main.resources
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Properties.Resources.resources
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Timer.resources
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.csproj.GenerateResource.cache
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.exe
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.pdb
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.IPCheck.resources
+D:\파일 관리자\github\Desktop_Assistant\Desktop_Assistant\obj\Debug\Desktop_Assistant.Serial.resources
