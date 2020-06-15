@@ -117,5 +117,12 @@ namespace Desktop_Assistant
         {
             _form1.TopMost = false;
         }
+
+        private void SCP049_Click(object sender, EventArgs e)
+        {
+            Image SCP049 = Image.FromFile(@"..\..\Idle\SCP049.png");
+            _form1.ChangeBGImage(SCP049);
+            _form1.Size = new Size(400, 760);
+        }
     }
 }
