@@ -90,19 +90,5 @@ namespace Desktop_Assistant
             Serial se = new Serial();
             se.Show();
         }
-
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            if(MessageBox.Show("정말 종료하시겠습니까?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-        }
-
-        private void SCP173_Click(object sender, EventArgs e)
-        {
-            Image SCP173 = Image.FromFile(@"..\..\Idle\SCP173.png");
-            _form1.ChangeBGImage(SCP173);
-        }
     }
 }

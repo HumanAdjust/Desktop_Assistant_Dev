@@ -56,6 +56,9 @@
   <PropertyGroup>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Assistant2.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -70,6 +73,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs" />
     <Compile Include="Command.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +109,7 @@
     <Compile Include="Timer.Designer.cs">
       <DependentUpon>Timer.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Calculator.resx" />
     <EmbeddedResource Include="Command.resx">
       <DependentUpon>Command.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +131,7 @@
     <EmbeddedResource Include="Serial.resx">
       <DependentUpon>Serial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StopWatch.resx" />
     <EmbeddedResource Include="Timer.resx">
       <DependentUpon>Timer.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +160,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assistant2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

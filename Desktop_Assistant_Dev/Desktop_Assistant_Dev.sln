@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.156
+VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop_Assistant", "Desktop_Assistant\Desktop_Assistant.csproj", "{D59BDC82-B524-4E66-813E-B9881CD6C277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop_Assistant_Dev", "Desktop_Assistant_Dev.csproj", "{D59BDC82-B524-4E66-813E-B9881CD6C277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A091814F-9D97-4178-910E-7DE83B8796DC}
+		SolutionGuid = {AD561B2C-BB70-4702-9AD1-DCDFAB68B2AD}
 	EndGlobalSection
 EndGlobal

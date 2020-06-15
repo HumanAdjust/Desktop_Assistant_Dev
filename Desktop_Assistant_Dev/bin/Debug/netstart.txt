@@ -1,7 +1,9 @@
 These Windows services are started:
 
+   Adobe Acrobat Update Service
    AhnLab V3 Lite Service
    Application Information
+   AppX Deployment Service (AppXSVC)
    AVCTP 서비스
    Background Intelligent Transfer Service
    Background Tasks Infrastructure Service
@@ -10,12 +12,11 @@ These Windows services are started:
    Bluetooth 지원 서비스
    Bonjour Service
    Certificate Propagation
-   Client License Service (ClipSVC)
    CNG Key Isolation
    COM+ Event System
    Connected User Experiences and Telemetry
    Consulting Mode
-   Contact Data_2cdf03
+   Contact Data_1919032
    CoreMessaging
    Credential Manager
    CrossEX Live Checker
@@ -64,6 +65,7 @@ These Windows services are started:
    MongoDB Server
    MySQL80
    Network Connection Broker
+   Network Connections
    Network List Service
    Network Location Awareness
    Network Store Interface Service
@@ -99,7 +101,6 @@ These Windows services are started:
    SSDP Discovery
    sService Agent Launcher
    State Repository Service
-   Steam Client Service
    Storage Service
    SysMain
    System Event Notification Service
@@ -112,8 +113,8 @@ These Windows services are started:
    Time Broker
    Touch Keyboard and Handwriting Panel Service
    TunnelBear Maintenance
-   User Data Access_2cdf03
-   User Data Storage_2cdf03
+   User Data Access_1919032
+   User Data Storage_1919032
    User Manager
    User Profile Service
    VMware Authorization Service
@@ -132,9 +133,10 @@ These Windows services are started:
    Windows Management Instrumentation
    Windows Modules Installer
    Windows Presentation Foundation Font Cache 3.0.0.0
-   Windows Push Notifications User Service_2cdf03
+   Windows Push Notifications User Service_1919032
    Windows Search
    Windows Update
+   Windows Update Medic Service
    Windows 라이선스 관리자 서비스
    Windows 보안 서비스
    Windows 푸시 알림 시스템 서비스
@@ -142,19 +144,20 @@ These Windows services are started:
    Wired AutoConfig
    WLAN AutoConfig
    Workstation
+   WTService
    결제 및 NFC/SE 관리자
    기능 액세스 관리자 서비스
    기본 인증
    데이터 사용량
    디스플레이 개선 서비스
    무선 송수신 장치 관리 서비스
-   연결된 디바이스 플랫폼 사용자 서비스_2cdf03
+   연결된 디바이스 플랫폼 사용자 서비스_1919032
    연결된 디바이스 플랫폼 서비스
    오케스트레이터 서비스 업데이트
    웹 계정 관리자
    정책 서비스 표시
-   클립보드 사용자 서비스_2cdf03
-   호스트 동기화_2cdf03
+   클립보드 사용자 서비스_1919032
+   호스트 동기화_1919032
 
 The command completed successfully.
 

@@ -50,12 +50,6 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.IPCheck = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.Menu = new System.Windows.Forms.ToolStripMenuItem();
-            this.Setting = new System.Windows.Forms.ToolStripMenuItem();
-            this.Exit = new System.Windows.Forms.ToolStripMenuItem();
-            this.Info = new System.Windows.Forms.ToolStripMenuItem();
-            this.SCP173 = new System.Windows.Forms.Button();
             this.SystemIO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Con_Features.SuspendLayout();
@@ -63,7 +57,6 @@
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // SystemIO
@@ -72,7 +65,7 @@
             this.SystemIO.Controls.Add(this.Logoff);
             this.SystemIO.Controls.Add(this.Restart);
             this.SystemIO.Controls.Add(this.Shutdown);
-            this.SystemIO.Location = new System.Drawing.Point(13, 31);
+            this.SystemIO.Location = new System.Drawing.Point(13, 13);
             this.SystemIO.Name = "SystemIO";
             this.SystemIO.Size = new System.Drawing.Size(250, 116);
             this.SystemIO.TabIndex = 0;
@@ -144,7 +137,7 @@
             // 
             this.Con_Features.Controls.Add(this.Calcualtor);
             this.Con_Features.Controls.Add(this.StopWatch);
-            this.Con_Features.Location = new System.Drawing.Point(13, 288);
+            this.Con_Features.Location = new System.Drawing.Point(13, 270);
             this.Con_Features.Name = "Con_Features";
             this.Con_Features.Size = new System.Drawing.Size(251, 116);
             this.Con_Features.TabIndex = 6;
@@ -184,7 +177,7 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.groupBox3);
-            this.groupBox2.Location = new System.Drawing.Point(12, 410);
+            this.groupBox2.Location = new System.Drawing.Point(12, 392);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(718, 156);
             this.groupBox2.TabIndex = 7;
@@ -193,7 +186,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.SCP173);
             this.groupBox3.Controls.Add(this.Cha_Nyan);
             this.groupBox3.Controls.Add(this.Cha_Clippy);
             this.groupBox3.Location = new System.Drawing.Point(13, 20);
@@ -227,7 +219,7 @@
             // 
             this.groupBox4.Controls.Add(this.Battery_check);
             this.groupBox4.Controls.Add(this.Com_Check);
-            this.groupBox4.Location = new System.Drawing.Point(13, 166);
+            this.groupBox4.Location = new System.Drawing.Point(13, 148);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(250, 116);
             this.groupBox4.TabIndex = 6;
@@ -258,7 +250,7 @@
             // 
             this.groupBox5.Controls.Add(this.Check_Port);
             this.groupBox5.Controls.Add(this.IPCheck);
-            this.groupBox5.Location = new System.Drawing.Point(269, 31);
+            this.groupBox5.Location = new System.Drawing.Point(269, 13);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(155, 83);
             this.groupBox5.TabIndex = 7;
@@ -277,77 +269,25 @@
             // 
             // groupBox6
             // 
-            this.groupBox6.Location = new System.Drawing.Point(430, 31);
+            this.groupBox6.Location = new System.Drawing.Point(430, 13);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(300, 373);
             this.groupBox6.TabIndex = 7;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Shortcuts";
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Menu,
-            this.Setting});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(742, 24);
-            this.menuStrip1.TabIndex = 8;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // Menu
-            // 
-            this.Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Exit});
-            this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(43, 20);
-            this.Menu.Text = "메뉴";
-            // 
-            // Setting
-            // 
-            this.Setting.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Info});
-            this.Setting.Name = "Setting";
-            this.Setting.Size = new System.Drawing.Size(95, 20);
-            this.Setting.Text = "프로그램 관련";
-            // 
-            // Exit
-            // 
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(180, 22);
-            this.Exit.Text = "종료";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            // 
-            // Info
-            // 
-            this.Info.Name = "Info";
-            this.Info.Size = new System.Drawing.Size(180, 22);
-            this.Info.Text = "프로그램 정보";
-            // 
-            // SCP173
-            // 
-            this.SCP173.Location = new System.Drawing.Point(6, 49);
-            this.SCP173.Name = "SCP173";
-            this.SCP173.Size = new System.Drawing.Size(75, 23);
-            this.SCP173.TabIndex = 2;
-            this.SCP173.Text = "SCP-173";
-            this.SCP173.UseVisualStyleBackColor = true;
-            this.SCP173.Click += new System.EventHandler(this.SCP173_Click);
-            // 
             // Command
             // 
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(742, 574);
+            this.ClientSize = new System.Drawing.Size(742, 560);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.Con_Features);
             this.Controls.Add(this.SystemIO);
-            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Command";
             this.Text = "Command";
             this.SystemIO.ResumeLayout(false);
@@ -357,10 +297,7 @@
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -386,11 +323,5 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button IPCheck;
         private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem Menu;
-        private System.Windows.Forms.ToolStripMenuItem Setting;
-        private System.Windows.Forms.ToolStripMenuItem Exit;
-        private System.Windows.Forms.ToolStripMenuItem Info;
-        private System.Windows.Forms.Button SCP173;
     }
 }

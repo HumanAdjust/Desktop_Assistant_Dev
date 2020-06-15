@@ -30,7 +30,7 @@ namespace Desktop_Assistant
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Cannot Get External IP. Please Check Your Internet Connection.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Error", "Cannot Get External IP. Please Check Your Internet Connection.", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             for (int i = 0; i < addr.Length; i++)
