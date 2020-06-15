@@ -61,12 +61,14 @@ namespace Desktop_Assistant
         {
             Image Clippy = Image.FromFile(@"..\..\Idle\Clippy.png");
             _form1.ChangeBGImage(Clippy);
+            _form1.Size = new Size(420, 585);
         }
 
         private void Cha_Nyan_Click(object sender, EventArgs e)
         {
             Image Nyan = Image.FromFile(@"..\..\Idle\Nyan.png");
             _form1.ChangeBGImage(Nyan);
+            _form1.Size = new Size(420, 585);
         }
 
         private void Com_Check_Click(object sender, EventArgs e)
@@ -103,6 +105,17 @@ namespace Desktop_Assistant
         {
             Image SCP173 = Image.FromFile(@"..\..\Idle\SCP173.png");
             _form1.ChangeBGImage(SCP173);
+            _form1.Size = new Size(400, 760);
+        }
+
+        private void AOT_ON_Click(object sender, EventArgs e)
+        {
+            _form1.TopMost = true;
+        }
+
+        private void AOT_OFF_Click(object sender, EventArgs e)
+        {
+            _form1.TopMost = false;
         }
     }
 }

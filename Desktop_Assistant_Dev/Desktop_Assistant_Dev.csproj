@@ -73,10 +73,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Calculator.Designer.cs" />
     <Compile Include="Command.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,13 +99,17 @@
     <Compile Include="Serial.Designer.cs">
       <DependentUpon>Serial.cs</DependentUpon>
     </Compile>
+    <Compile Include="StopWatch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StopWatch.resx</DependentUpon>
+    </Compile>
     <Compile Include="Timer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Timer.Designer.cs">
       <DependentUpon>Timer.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Calculator.resx" />
     <EmbeddedResource Include="Command.resx">
       <DependentUpon>Command.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,7 +131,10 @@
     <EmbeddedResource Include="Serial.resx">
       <DependentUpon>Serial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StopWatch.resx" />
+    <EmbeddedResource Include="StopWatch.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StopWatch.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Timer.resx">
       <DependentUpon>Timer.cs</DependentUpon>
     </EmbeddedResource>

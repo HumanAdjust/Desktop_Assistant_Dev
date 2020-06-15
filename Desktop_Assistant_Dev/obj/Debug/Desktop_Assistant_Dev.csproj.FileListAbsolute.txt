@@ -2,7 +2,6 @@ C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\
 C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Debug\Desktop_Assistant.exe
 C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Debug\Desktop_Assistant.pdb
 C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant_Dev.csprojAssemblyReference.cache
-C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Calculator.resources
 C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Command.resources
 C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.IPCheck.resources
 C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Debug\Desktop_Assistant.Main.resources

@@ -42,6 +42,7 @@
             this.Check_Port = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.SCP173 = new System.Windows.Forms.Button();
             this.Cha_Nyan = new System.Windows.Forms.Button();
             this.Cha_Clippy = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -52,10 +53,12 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Menu = new System.Windows.Forms.ToolStripMenuItem();
-            this.Setting = new System.Windows.Forms.ToolStripMenuItem();
             this.Exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.Setting = new System.Windows.Forms.ToolStripMenuItem();
             this.Info = new System.Windows.Forms.ToolStripMenuItem();
-            this.SCP173 = new System.Windows.Forms.Button();
+            this.Other = new System.Windows.Forms.GroupBox();
+            this.AOT_ON = new System.Windows.Forms.Button();
+            this.AOT_OFF = new System.Windows.Forms.Button();
             this.SystemIO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Con_Features.SuspendLayout();
@@ -64,6 +67,7 @@
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.Other.SuspendLayout();
             this.SuspendLayout();
             // 
             // SystemIO
@@ -183,6 +187,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.Other);
             this.groupBox2.Controls.Add(this.groupBox3);
             this.groupBox2.Location = new System.Drawing.Point(12, 410);
             this.groupBox2.Name = "groupBox2";
@@ -202,6 +207,16 @@
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "characters";
+            // 
+            // SCP173
+            // 
+            this.SCP173.Location = new System.Drawing.Point(6, 49);
+            this.SCP173.Name = "SCP173";
+            this.SCP173.Size = new System.Drawing.Size(75, 23);
+            this.SCP173.TabIndex = 2;
+            this.SCP173.Text = "SCP-173";
+            this.SCP173.UseVisualStyleBackColor = true;
+            this.SCP173.Click += new System.EventHandler(this.SCP173_Click);
             // 
             // Cha_Nyan
             // 
@@ -303,6 +318,13 @@
             this.Menu.Size = new System.Drawing.Size(43, 20);
             this.Menu.Text = "메뉴";
             // 
+            // Exit
+            // 
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(98, 22);
+            this.Exit.Text = "종료";
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
             // Setting
             // 
             this.Setting.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -311,28 +333,43 @@
             this.Setting.Size = new System.Drawing.Size(95, 20);
             this.Setting.Text = "프로그램 관련";
             // 
-            // Exit
-            // 
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(180, 22);
-            this.Exit.Text = "종료";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            // 
             // Info
             // 
             this.Info.Name = "Info";
-            this.Info.Size = new System.Drawing.Size(180, 22);
+            this.Info.Size = new System.Drawing.Size(150, 22);
             this.Info.Text = "프로그램 정보";
             // 
-            // SCP173
+            // Other
             // 
-            this.SCP173.Location = new System.Drawing.Point(6, 49);
-            this.SCP173.Name = "SCP173";
-            this.SCP173.Size = new System.Drawing.Size(75, 23);
-            this.SCP173.TabIndex = 2;
-            this.SCP173.Text = "SCP-173";
-            this.SCP173.UseVisualStyleBackColor = true;
-            this.SCP173.Click += new System.EventHandler(this.SCP173_Click);
+            this.Other.Controls.Add(this.AOT_OFF);
+            this.Other.Controls.Add(this.AOT_ON);
+            this.Other.Location = new System.Drawing.Point(595, 61);
+            this.Other.Name = "Other";
+            this.Other.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.Other.Size = new System.Drawing.Size(108, 88);
+            this.Other.TabIndex = 3;
+            this.Other.TabStop = false;
+            this.Other.Text = "Always On Top";
+            // 
+            // AOT_ON
+            // 
+            this.AOT_ON.Location = new System.Drawing.Point(16, 21);
+            this.AOT_ON.Name = "AOT_ON";
+            this.AOT_ON.Size = new System.Drawing.Size(75, 23);
+            this.AOT_ON.TabIndex = 2;
+            this.AOT_ON.Text = "ON";
+            this.AOT_ON.UseVisualStyleBackColor = true;
+            this.AOT_ON.Click += new System.EventHandler(this.AOT_ON_Click);
+            // 
+            // AOT_OFF
+            // 
+            this.AOT_OFF.Location = new System.Drawing.Point(16, 50);
+            this.AOT_OFF.Name = "AOT_OFF";
+            this.AOT_OFF.Size = new System.Drawing.Size(75, 23);
+            this.AOT_OFF.TabIndex = 3;
+            this.AOT_OFF.Text = "OFF";
+            this.AOT_OFF.UseVisualStyleBackColor = true;
+            this.AOT_OFF.Click += new System.EventHandler(this.AOT_OFF_Click);
             // 
             // Command
             // 
@@ -359,6 +396,7 @@
             this.groupBox5.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.Other.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -392,5 +430,8 @@
         private System.Windows.Forms.ToolStripMenuItem Exit;
         private System.Windows.Forms.ToolStripMenuItem Info;
         private System.Windows.Forms.Button SCP173;
+        private System.Windows.Forms.GroupBox Other;
+        private System.Windows.Forms.Button AOT_OFF;
+        private System.Windows.Forms.Button AOT_ON;
     }
 }
