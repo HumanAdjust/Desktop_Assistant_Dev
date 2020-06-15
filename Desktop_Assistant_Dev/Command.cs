@@ -57,20 +57,6 @@ namespace Desktop_Assistant
             Process.Start(@"calc");
         }
 
-        private void Cha_Clippy_Click(object sender, EventArgs e)
-        {
-            Image Clippy = Image.FromFile(@"..\..\Idle\Clippy.png");
-            _form1.ChangeBGImage(Clippy);
-            _form1.Size = new Size(420, 585);
-        }
-
-        private void Cha_Nyan_Click(object sender, EventArgs e)
-        {
-            Image Nyan = Image.FromFile(@"..\..\Idle\Nyan.png");
-            _form1.ChangeBGImage(Nyan);
-            _form1.Size = new Size(420, 585);
-        }
-
         private void Com_Check_Click(object sender, EventArgs e)
         {
             Process.Start(@"..\..\Programs\infosec\Windows.bat");
@@ -93,36 +79,14 @@ namespace Desktop_Assistant
             se.Show();
         }
 
-        private void Exit_Click(object sender, EventArgs e)
+        private void Prg_Info_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("정말 종료하시겠습니까?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            MessageBox.Show("This Program will helps you experencing new comoputer.\n\n2019-2020 Made by Cloudy_Cat", "Program Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void SCP173_Click(object sender, EventArgs e)
+        private void Chrome_Click(object sender, EventArgs e)
         {
-            Image SCP173 = Image.FromFile(@"..\..\Idle\SCP173.png");
-            _form1.ChangeBGImage(SCP173);
-            _form1.Size = new Size(400, 760);
-        }
-
-        private void AOT_ON_Click(object sender, EventArgs e)
-        {
-            _form1.TopMost = true;
-        }
-
-        private void AOT_OFF_Click(object sender, EventArgs e)
-        {
-            _form1.TopMost = false;
-        }
-
-        private void SCP049_Click(object sender, EventArgs e)
-        {
-            Image SCP049 = Image.FromFile(@"..\..\Idle\SCP049.png");
-            _form1.ChangeBGImage(SCP049);
-            _form1.Size = new Size(400, 760);
+            Process.Start(@"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe");
         }
     }
 }

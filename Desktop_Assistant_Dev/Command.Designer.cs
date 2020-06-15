@@ -41,13 +41,6 @@
             this.StopWatch = new System.Windows.Forms.Button();
             this.Check_Port = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.Other = new System.Windows.Forms.GroupBox();
-            this.AOT_OFF = new System.Windows.Forms.Button();
-            this.AOT_ON = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.SCP173 = new System.Windows.Forms.Button();
-            this.Cha_Nyan = new System.Windows.Forms.Button();
-            this.Cha_Clippy = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.Battery_check = new System.Windows.Forms.Button();
             this.Com_Check = new System.Windows.Forms.Button();
@@ -56,18 +49,19 @@
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Menu = new System.Windows.Forms.ToolStripMenuItem();
-            this.Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.Setting = new System.Windows.Forms.ToolStripMenuItem();
-            this.Info = new System.Windows.Forms.ToolStripMenuItem();
-            this.SCP049 = new System.Windows.Forms.Button();
+            this.Prg_Info = new System.Windows.Forms.ToolStripMenuItem();
+            this.StickeyNotes = new System.Windows.Forms.Button();
+            this.Chrome = new System.Windows.Forms.Button();
+            this.Discord = new System.Windows.Forms.Button();
+            this.Kakaotalk = new System.Windows.Forms.Button();
+            this.Steam = new System.Windows.Forms.Button();
             this.SystemIO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Con_Features.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.Other.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -188,89 +182,12 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.Other);
-            this.groupBox2.Controls.Add(this.groupBox3);
             this.groupBox2.Location = new System.Drawing.Point(12, 410);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(718, 156);
+            this.groupBox2.Size = new System.Drawing.Size(741, 156);
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Assistant_Settings";
-            // 
-            // Other
-            // 
-            this.Other.Controls.Add(this.AOT_OFF);
-            this.Other.Controls.Add(this.AOT_ON);
-            this.Other.Location = new System.Drawing.Point(595, 61);
-            this.Other.Name = "Other";
-            this.Other.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Other.Size = new System.Drawing.Size(108, 88);
-            this.Other.TabIndex = 3;
-            this.Other.TabStop = false;
-            this.Other.Text = "Always On Top";
-            // 
-            // AOT_OFF
-            // 
-            this.AOT_OFF.Location = new System.Drawing.Point(16, 50);
-            this.AOT_OFF.Name = "AOT_OFF";
-            this.AOT_OFF.Size = new System.Drawing.Size(75, 23);
-            this.AOT_OFF.TabIndex = 3;
-            this.AOT_OFF.Text = "OFF";
-            this.AOT_OFF.UseVisualStyleBackColor = true;
-            this.AOT_OFF.Click += new System.EventHandler(this.AOT_OFF_Click);
-            // 
-            // AOT_ON
-            // 
-            this.AOT_ON.Location = new System.Drawing.Point(16, 21);
-            this.AOT_ON.Name = "AOT_ON";
-            this.AOT_ON.Size = new System.Drawing.Size(75, 23);
-            this.AOT_ON.TabIndex = 2;
-            this.AOT_ON.Text = "ON";
-            this.AOT_ON.UseVisualStyleBackColor = true;
-            this.AOT_ON.Click += new System.EventHandler(this.AOT_ON_Click);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.SCP049);
-            this.groupBox3.Controls.Add(this.SCP173);
-            this.groupBox3.Controls.Add(this.Cha_Nyan);
-            this.groupBox3.Controls.Add(this.Cha_Clippy);
-            this.groupBox3.Location = new System.Drawing.Point(13, 20);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(168, 130);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "characters";
-            // 
-            // SCP173
-            // 
-            this.SCP173.Location = new System.Drawing.Point(6, 49);
-            this.SCP173.Name = "SCP173";
-            this.SCP173.Size = new System.Drawing.Size(75, 23);
-            this.SCP173.TabIndex = 2;
-            this.SCP173.Text = "SCP-173";
-            this.SCP173.UseVisualStyleBackColor = true;
-            this.SCP173.Click += new System.EventHandler(this.SCP173_Click);
-            // 
-            // Cha_Nyan
-            // 
-            this.Cha_Nyan.Location = new System.Drawing.Point(87, 20);
-            this.Cha_Nyan.Name = "Cha_Nyan";
-            this.Cha_Nyan.Size = new System.Drawing.Size(75, 23);
-            this.Cha_Nyan.TabIndex = 1;
-            this.Cha_Nyan.Text = "NyanGirl";
-            this.Cha_Nyan.UseVisualStyleBackColor = true;
-            this.Cha_Nyan.Click += new System.EventHandler(this.Cha_Nyan_Click);
-            // 
-            // Cha_Clippy
-            // 
-            this.Cha_Clippy.Location = new System.Drawing.Point(6, 20);
-            this.Cha_Clippy.Name = "Cha_Clippy";
-            this.Cha_Clippy.Size = new System.Drawing.Size(75, 23);
-            this.Cha_Clippy.TabIndex = 0;
-            this.Cha_Clippy.Text = "Clippy";
-            this.Cha_Clippy.UseVisualStyleBackColor = true;
-            this.Cha_Clippy.Click += new System.EventHandler(this.Cha_Clippy_Click);
             // 
             // groupBox4
             // 
@@ -326,9 +243,14 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.Steam);
+            this.groupBox6.Controls.Add(this.Kakaotalk);
+            this.groupBox6.Controls.Add(this.Discord);
+            this.groupBox6.Controls.Add(this.Chrome);
+            this.groupBox6.Controls.Add(this.StickeyNotes);
             this.groupBox6.Location = new System.Drawing.Point(430, 31);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(300, 373);
+            this.groupBox6.Size = new System.Drawing.Size(323, 373);
             this.groupBox6.TabIndex = 7;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Shortcuts";
@@ -340,53 +262,81 @@
             this.Setting});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(742, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(765, 24);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // Menu
             // 
-            this.Menu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Exit});
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(43, 20);
-            this.Menu.Text = "메뉴";
-            // 
-            // Exit
-            // 
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(98, 22);
-            this.Exit.Text = "종료";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            this.Menu.Size = new System.Drawing.Size(50, 20);
+            this.Menu.Text = "Menu";
             // 
             // Setting
             // 
             this.Setting.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Info});
+            this.Prg_Info});
             this.Setting.Name = "Setting";
-            this.Setting.Size = new System.Drawing.Size(95, 20);
-            this.Setting.Text = "프로그램 관련";
+            this.Setting.Size = new System.Drawing.Size(40, 20);
+            this.Setting.Text = "Info";
             // 
-            // Info
+            // Prg_Info
             // 
-            this.Info.Name = "Info";
-            this.Info.Size = new System.Drawing.Size(150, 22);
-            this.Info.Text = "프로그램 정보";
+            this.Prg_Info.Name = "Prg_Info";
+            this.Prg_Info.Size = new System.Drawing.Size(180, 22);
+            this.Prg_Info.Text = "About Program...";
+            this.Prg_Info.Click += new System.EventHandler(this.Prg_Info_Click);
             // 
-            // SCP049
+            // StickeyNotes
             // 
-            this.SCP049.Location = new System.Drawing.Point(87, 49);
-            this.SCP049.Name = "SCP049";
-            this.SCP049.Size = new System.Drawing.Size(75, 23);
-            this.SCP049.TabIndex = 3;
-            this.SCP049.Text = "SCP-049";
-            this.SCP049.UseVisualStyleBackColor = true;
-            this.SCP049.Click += new System.EventHandler(this.SCP049_Click);
+            this.StickeyNotes.Location = new System.Drawing.Point(6, 20);
+            this.StickeyNotes.Name = "StickeyNotes";
+            this.StickeyNotes.Size = new System.Drawing.Size(100, 24);
+            this.StickeyNotes.TabIndex = 2;
+            this.StickeyNotes.Text = "Stickey Notes";
+            this.StickeyNotes.UseVisualStyleBackColor = true;
+            // 
+            // Chrome
+            // 
+            this.Chrome.Location = new System.Drawing.Point(6, 50);
+            this.Chrome.Name = "Chrome";
+            this.Chrome.Size = new System.Drawing.Size(100, 24);
+            this.Chrome.TabIndex = 3;
+            this.Chrome.Text = "Chrome";
+            this.Chrome.UseVisualStyleBackColor = true;
+            this.Chrome.Click += new System.EventHandler(this.Chrome_Click);
+            // 
+            // Discord
+            // 
+            this.Discord.Location = new System.Drawing.Point(112, 19);
+            this.Discord.Name = "Discord";
+            this.Discord.Size = new System.Drawing.Size(100, 24);
+            this.Discord.TabIndex = 4;
+            this.Discord.Text = "Discord";
+            this.Discord.UseVisualStyleBackColor = true;
+            // 
+            // Kakaotalk
+            // 
+            this.Kakaotalk.Location = new System.Drawing.Point(217, 19);
+            this.Kakaotalk.Name = "Kakaotalk";
+            this.Kakaotalk.Size = new System.Drawing.Size(100, 24);
+            this.Kakaotalk.TabIndex = 5;
+            this.Kakaotalk.Text = "Kakaotalk";
+            this.Kakaotalk.UseVisualStyleBackColor = true;
+            // 
+            // Steam
+            // 
+            this.Steam.Location = new System.Drawing.Point(112, 50);
+            this.Steam.Name = "Steam";
+            this.Steam.Size = new System.Drawing.Size(100, 24);
+            this.Steam.TabIndex = 6;
+            this.Steam.Text = "Steam";
+            this.Steam.UseVisualStyleBackColor = true;
             // 
             // Command
             // 
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(742, 574);
+            this.ClientSize = new System.Drawing.Size(765, 574);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
@@ -402,11 +352,9 @@
             this.SystemIO.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.Con_Features.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.Other.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -427,9 +375,6 @@
         private System.Windows.Forms.Button Check_Port;
         private System.Windows.Forms.Button Calcualtor;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button Cha_Nyan;
-        private System.Windows.Forms.Button Cha_Clippy;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Button Com_Check;
         private System.Windows.Forms.Button Battery_check;
@@ -439,12 +384,11 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem Menu;
         private System.Windows.Forms.ToolStripMenuItem Setting;
-        private System.Windows.Forms.ToolStripMenuItem Exit;
-        private System.Windows.Forms.ToolStripMenuItem Info;
-        private System.Windows.Forms.Button SCP173;
-        private System.Windows.Forms.GroupBox Other;
-        private System.Windows.Forms.Button AOT_OFF;
-        private System.Windows.Forms.Button AOT_ON;
-        private System.Windows.Forms.Button SCP049;
+        private System.Windows.Forms.ToolStripMenuItem Prg_Info;
+        private System.Windows.Forms.Button Steam;
+        private System.Windows.Forms.Button Kakaotalk;
+        private System.Windows.Forms.Button Discord;
+        private System.Windows.Forms.Button Chrome;
+        private System.Windows.Forms.Button StickeyNotes;
     }
 }
