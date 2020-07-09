@@ -1,0 +1,14 @@
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Release\Desktop_Assistant.exe.config
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Release\Desktop_Assistant.exe
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\bin\Release\Desktop_Assistant.pdb
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant_Dev.csprojAssemblyReference.cache
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.Command.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.IPCheck.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.Main.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.Properties.Resources.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.Serial.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.StopWatch.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.Timer.resources
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant_Dev.csproj.GenerateResource.cache
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.exe
+C:\Users\jshga\Documents\GitHub\Desktop_Assistant_Dev\Desktop_Assistant_Dev\obj\Release\Desktop_Assistant.pdb
